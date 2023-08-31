@@ -110,3 +110,25 @@ Os fatores apresentados na tabela a seguir tratam dos processos que restringem o
 
 ## Diagrama de Casos de Uso
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/131923836/e730cc33-e08f-4368-bac7-97d8b87efa8e)
+
+- Associação
+
+  Usuário faz o login. Cadastra suas receitas. Registra despesas. Registra Investimentos. 
+Consulta saldo.
+
+- Inclusão
+
+  Toda vez que o usuário fizer Login, o aplicativo verificará a senha automaticamente.
+
+- Extensão
+
+  Ocorrerá apenas quando o usuário digitar senha errada, aparecerá a mensagem de erro de login.
+
+- Generalização/Herança
+
+  Ao registrar as Despesas  o usuário poderá optar por registrar como Fixas ou Esporádicas.
+O mesmo ocorre em Cadastrar Receitas.
+
+
+
