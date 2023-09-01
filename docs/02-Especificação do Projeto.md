@@ -72,11 +72,11 @@ As tabelas a seguir, apresentam os requisitos funcionais e não funcionais da ap
 | RF-13  | O sistema deve permitir que o usuário opte pelo “DarkMode”. | Baixa |
 | RF-14  | O sistema deve permitir que a página de registros seja customizável conforme as necessidades do usuário. | Baixa |
 | RF-15  | O sistema deve permitir que o usuário faça a importação do seu extrato na extensão .csv. | Baixa |
-| RF-16  | * Histórico de transações, foco em manter um histórico completo das transações financeiras realizadas pelos usuários. | Média |
-| RF-17  | * Gerenciar o perfil como permitir que os usuários atualizem suas informações de perfil, endereço, número de telefone e foto. | Média |
-| RF-18  | * Oferecer gráficos e relatórios para visualização clara dos fluxos financeiros. | Alta |
-| RF-19  | * Orçamentos, permitir que os usuários definam metas de gastos e criem orçamentos mensais ou anuais. | Baixa |
-| RF-20  | * Alertar os usuários quando estiverem se aproximando dos limites de orçamento. | Baixa |
+| RF-16  | Histórico de transações, foco em manter um histórico completo das transações financeiras realizadas pelos usuários. | Média |
+| RF-17  | Gerenciar o perfil como permitir que os usuários atualizem suas informações de perfil, endereço, número de telefone e foto. | Média |
+| RF-18  | Oferecer gráficos e relatórios para visualização clara dos fluxos financeiros. | Alta |
+| RF-19  | Orçamentos, permitir que os usuários definam metas de gastos e criem orçamentos mensais ou anuais. | Baixa |
+| RF-20  | Alertar os usuários quando estiverem se aproximando dos limites de orçamento. | Baixa |
 
 ## Requisitos Não Funcionais (RNF)
 
@@ -85,7 +85,6 @@ As tabelas a seguir, apresentam os requisitos funcionais e não funcionais da ap
 | RNF-01  | O sistema deve ser acessível e de fácil usabilidade pelo usuário. | Alta |
 | RNF-02  | A aplicação deve ser responsiva e adequada a qualquer sistema de acesso (Desktop, Smartphone ou Tablet). | Alta |
 | RNF-03  | O sistema deve permitir fácil manutenibilidade. | Média |
-| RNF-04  | * Tempo de resposta de 5 segundos. | Alta |
 
 
 ## Restrições
