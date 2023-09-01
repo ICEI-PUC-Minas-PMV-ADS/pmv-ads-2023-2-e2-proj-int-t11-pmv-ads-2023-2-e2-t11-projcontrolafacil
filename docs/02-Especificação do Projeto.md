@@ -87,6 +87,7 @@ As tabelas a seguir, apresentam os requisitos funcionais e não funcionais da ap
 | RNF-03  | O sistema deve permitir fácil manutenibilidade. | Média |
 | RNF-04  | * Tempo de resposta de 5 segundos. | Alta |
 
+
 ## Restrições
 
 Os fatores apresentados na tabela a seguir tratam dos processos que restringem o desenvolvimento da plataforma:
