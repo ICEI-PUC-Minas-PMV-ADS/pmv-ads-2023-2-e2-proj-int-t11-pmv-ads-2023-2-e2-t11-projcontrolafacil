@@ -64,4 +64,8 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/93fa7f8e-6cb7-423a-b2a2-e0ee7b729962
 
+Para a versão sem a marca d'água de compressão, basta acessar o link:
+
+https://drive.google.com/file/d/143EDGt6-TLsR5CM31BgiQ7chw47xZmXF/view?usp=sharing
+
 
