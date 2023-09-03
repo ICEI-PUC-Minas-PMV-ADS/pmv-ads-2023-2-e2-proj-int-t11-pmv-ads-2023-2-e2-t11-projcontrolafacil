@@ -1,23 +1,28 @@
-# TÍTULO DO PROJETO
+# CONTROLA FÁCIL - DESENVOLVIMENTO DE UMA APLICAÇÃO INTERATIVA: Concepção e proposta de solução
 
-`CURSO`
+
+`Tecnologia em Análise e Desenvolvimento de Sistemas - Pontifícia Universidade Católica de Minas Gerais`
 
 `DISCIPLINA`
 
-`SEMESTRE`
+`2023/2 - EIXO 2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+A aplicação busca proporcionar uma ferramenta digital acessível, ágil e objetiva aos seus usuários, 
+sendo capaz de simplificar e auxiliar na gestão cotidiana de suas finanças. Além disso, a aplicação
+tem como objetivo contribuir para a educação e saúde financeira de seus usuários..
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Arthur Oliveira
+* Carlos Eduardo Dos Santos Lima
+* Geovanne do Monte Ribeiro
+* Lais Barbosa de Oliveira
+* Lucas Emanuel Pereira Rodrigues
+* Lucas Oliveira Soares
 
 ## Orientador
 
-* Nome completo do professor 1
+* Dr. Neil Paiva Tizzo
 
 ## Instruções de utilização
 
