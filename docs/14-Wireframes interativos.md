@@ -3,7 +3,6 @@
 Wireframes interativos são representações visuais de um projeto de design de interface de usuário (UI) ou de um site que incluem elementos de interatividade. Eles são usados para planejar e comunicar a estrutura e o funcionamento de uma interface de forma mais detalhada do que simples esboços ou wireframes estáticos. Os wireframes interativos permitem que os designers e as partes interessadas experimentem a funcionalidade básica de uma interface antes de passar para o estágio de desenvolvimento completo.
 
 
-
 ## Algumas características e benefícios dos wireframes interativos:
 
 1.Elementos interativos: Eles incluem elementos como botões, links, menus suspensos e campos de entrada que podem ser clicados, arrastados ou interagidos de alguma forma para simular como a interface funcionará na realidade.
@@ -20,3 +19,4 @@ Wireframes interativos são representações visuais de um projeto de design de 
 
 ## Link
 > - [Wireframes interativos](https://www.figma.com/proto/z37zGLpTajLES3zOdmlMdJ/ControlaFacil-Wireframe?node-id=14-236&starting-point-node-id=14%3A293&t=mP5DtBdusaYiwL3a-1)
+teste
