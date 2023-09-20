@@ -1,4 +1,3 @@
-LUCAS
 # Introdução
 
 A gestão financeira é um hábito fundamental para o bem-estar econômico de longo prazo, seja ele de um indivíduo, uma família, ou mesmo de um negócio. Entretanto, muitas pessoas enfrentam dificuldades na sua relação com o dinheiro. Um dos principais problemas é a falta de conhecimento e habilidades — principalmente no Brasil, onde disciplinas de educação financeira não são amplamente disseminadas — para gerenciar suas finanças de forma eficaz. Isto, por sua vez, pode levar a decisões econômico-financeiras prejudiciais, como gastar mais do que recebe, contração excessiva de dívidas e descontrole das economias para o futuro. Além disso, a falta de organização e acompanhamento de gastos pode tornar difícil a identificação de onde o dinheiro está sendo empregado e onde há oportunidades de economia.
