@@ -3,20 +3,36 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A equipe de desenvolvimento traçou algumas diretrizes contemplando as capacidades e potencialidades de cada integrante, conforme apresentado nos tópicos a seguir.
+
+## Relação de Ambientes de Trabalho
+
+As plataformas utilizadas para o desenvolvimento de artefatos da aplicação foram Figma, Trello e GitHub. Além disso, para as comunicações e reuniões de equipe, foi selecionada a plataforma Discord.
+
+| Ambiente | Plataforma | Link de acesso |
+| --------- | ---------- | ------------ |
+| Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t3-pmv-ads-2023-1-e1-proj-web-t3-g1 |
+| Design de Interfaces | Figma | https://www.figma.com/file/z37zGLpTajLES3zOdmlMdJ/ControlaFacil-Wireframe?node-id=0%3A1&t=69S8xQR1BVdCDJwZ-1 |
+| Gerenciamento do Projeto | Trello | https://trello.com/b/oDauB2nJ/grupo1ads-controla-f%C3%A1cil |
+| Comunicação e Reuniões | Discord | https://discord.gg/r3ZXk8fN |
+
+## Gerenciamento de Projeto
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+Para a gestão do código fonte será utilizado o modelo de processo baseado no Git Flow, como mostrado na figura a seguir:
+
+![git_Flow](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t3-pmv-ads-2023-1-e1-proj-web-t3-g1/assets/122227953/2279f321-06f3-47ce-879c-75d74170cbc1)
+
+
+<sub>*Figura 01: Fluxo de controle do código fonte: GitFlow.*</sub>
 
 O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `main`: versão estável já testada do software.
+- `feature`: versão para desenvolvimento de novas funcionalidades.
+- `testing`: versão em testes do software.
+- `dev`: versão de desenvolvimento do software.
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
@@ -26,52 +42,65 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
-## Gerenciamento de Projeto
-
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe de desenvolvimento deste projeto está organizada conforme as funções a seguir:
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+
+**Scrum Master:**
+*Laís Barbosa*
+
+**Product Owner:**
+*Henrique Gomes*
+
+**Equipe de Desenvolvimento:**
+ 
+*Arthur Santos;*
+  
+*Carlos Eduardo Dos Santos Lima;*
+
+*Geovanne Do Monte Ribeiro;*
+
+*Lais Barbosa de Oliveira;*
+  
+*Lucas Emanuel Peirera Rodrigues;*
+  
+*Lucas Oliveira Soares.*
+  
+**Equipe de Design:**
+*Carlos Eduardo Dos Sants lima*
+
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+A equipe optou pela ferramenta “Trello” para a gestão das tarefas e processos da equipe conforme a seguinte estruturação:
+
+`Backlog`: Recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+
+`Fixing`: Requisitos com problemas e  precisam de reparo.
+
+`In progress`: Quando uma tarefa for iniciada, ela é transferida para esta coluna.
+
+`Test`: Checagem de qualidade. Ao certificar que a tarefa foi finalizada e está em teste, será transferida para esta coluna.
+
+`Done`: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias.
+
+`Deployed`: Requisitos funcionais prontos e já inseridos na branch de produção (main).
+
+
+![Trello_Flow](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t3-pmv-ads-2023-1-e1-proj-web-t3-g1/assets/122227953/89b0ab80-58c0-4317-aa7f-04b10f0b7c44)
+<sub>*Figura 02 - Tela do quadro de distribuição e organização de tarefas no Trello.*</sub>
+
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
-
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
-
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+A equipe selecionou as seguintes ferramentas para o desenvolvimento da aplicação:
+	
+- Figma (utilizado para a diagramação em tempo real e interação das wireframes)
+- GitHub
+- Discord (utilizado para as reuniões da equipe)
+- Microsoft Teams (utilizado nas aulas e em reuniões com orientadores)
+- Trello (utilizado para a gestão de tarefas da equipe)
+- Git
+- VS Code (integração com Git e GitHub)
+- Canva (utilizado para desenvolver a identidade visual da aplicação)
