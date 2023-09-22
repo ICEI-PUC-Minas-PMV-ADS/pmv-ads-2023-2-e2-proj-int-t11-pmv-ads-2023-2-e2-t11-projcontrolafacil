@@ -1,4 +1,5 @@
 
+
 # Metodologia
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
@@ -44,18 +45,9 @@ etiquetas:
 
 ### Divisão de Papéis
 
-A equipe de desenvolvimento deste projeto está organizada conforme as funções a seguir:
-
-
-**Scrum Master:**
-*Laís Barbosa*
-
-**Product Owner:**
-*Henrique Gomes*
-
 **Equipe de Desenvolvimento:**
  
-*Arthur Santos;*
+*Arthur Oliveira Santos;*
   
 *Carlos Eduardo Dos Santos Lima;*
 
@@ -66,31 +58,83 @@ A equipe de desenvolvimento deste projeto está organizada conforme as funções
 *Lucas Emanuel Peirera Rodrigues;*
   
 *Lucas Oliveira Soares.*
-  
-**Equipe de Design:**
-*Carlos Eduardo Dos Sants lima*
 
+## Backlog do Projeto
 
-### Processo
+### Alta Prioridade:
 
-A equipe optou pela ferramenta “Trello” para a gestão das tarefas e processos da equipe conforme a seguinte estruturação:
+| **ID** | **Descrição** |
+|--------|---------------|
+| RF-01  | Registrar despesas fixas |
+| RF-02  | Registrar despesas esporádicas |
+| RF-03  | Registrar despesas com "prazo de validade" |
+| RF-05  | Registrar receitas fixas |
+| RF-06  | Registrar receitas esporádicas |
+| RF-07  | Registrar receitas com "prazo de validade" |
+| RF-09  | Cadastro com login e senha |
+| RF-10  | Registrar despesas imprevistas |
+| RF-16  | Histórico de transações |
 
-`Backlog`: Recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+### Média Prioridade:
 
-`Fixing`: Requisitos com problemas e  precisam de reparo.
+| **ID** | **Descrição** |
+|--------|---------------|
+| RF-11  | Especificar motivo de uso da aplicação |
+| RF-17  | Gerenciar o perfil do usuário |
+| RF-20  | Alertar usuários sobre limites de orçamento |
 
-`In progress`: Quando uma tarefa for iniciada, ela é transferida para esta coluna.
+### Baixa Prioridade:
 
-`Test`: Checagem de qualidade. Ao certificar que a tarefa foi finalizada e está em teste, será transferida para esta coluna.
+| **ID** | **Descrição** |
+|--------|---------------|
+| RF-04  | Registrar meta de gastos |
+| RF-08  | Registrar investimentos |
+| RF-12  | Exibir notificações com dicas financeiras |
+| RF-13  | Permitir Dark Mode |
+| RF-14  | Página de registros customizável |
+| RF-15  | Importar extrato .csv |
+| RF-19  | Definir metas e criar orçamentos |
 
-`Done`: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias.
+## Planejamento das Sprints
 
-`Deployed`: Requisitos funcionais prontos e já inseridos na branch de produção (main).
+### Sprint 1:
 
+| **ID** | **Descrição** |
+|--------|---------------|
+| RF-01  | Registrar despesas fixas |
+| RF-02  | Registrar despesas esporádicas |
+| RF-03  | Registrar despesas com "prazo de validade" |
+| RF-05  | Registrar receitas fixas |
+| RF-09  | Cadastro com login e senha |
 
-![Trello_Flow](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t3-pmv-ads-2023-1-e1-proj-web-t3-g1/assets/122227953/89b0ab80-58c0-4317-aa7f-04b10f0b7c44)
-<sub>*Figura 02 - Tela do quadro de distribuição e organização de tarefas no Trello.*</sub>
+### Sprint 2:
 
+| **ID** | **Descrição** |
+|--------|---------------|
+| RF-06  | Registrar receitas esporádicas |
+| RF-07  | Registrar receitas com "prazo de validade" |
+| RF-10  | Registrar despesas imprevistas |
+| RF-16  | Histórico de transações |
+| RF-11  | Especificar motivo de uso da aplicação |
+
+### Sprint 3:
+
+| **ID** | **Descrição** |
+|--------|---------------|
+| RF-17  | Gerenciar o perfil do usuário |
+| RF-20  | Alertar usuários sobre limites de orçamento |
+| RF-04  | Registrar meta de gastos |
+| RF-08  | Registrar investimentos |
+
+### Sprint 4:
+
+| **ID** | **Descrição** |
+|--------|---------------|
+| RF-12  | Exibir notificações com dicas financeiras |
+| RF-13  | Permitir Dark Mode |
+| RF-14  | Página de registros customizável |
+| RF-15  | Importar extrato .csv |
+| RF-19  | Definir metas e criar orçamentos |
 
 ### Ferramentas
 
@@ -104,4 +148,3 @@ A equipe selecionou as seguintes ferramentas para o desenvolvimento da aplicaç�
 - Git
 - VS Code (integração com Git e GitHub)
 - Canva (utilizado para desenvolver a identidade visual da aplicação)
-
