@@ -12,7 +12,7 @@ O teste de software tem como objetivo verificar se a aplicação atende aos requ
 **Testes de Integração**
 - Avaliar como os diferentes módulos da aplicação se integram e se comunicam entre si.
 
-**Testes de Aceitaçã**
+**Testes de Aceitação**
 - Garantir que a aplicação atenda aos critérios de aceitação definidos, incluindo requisitos funcionais e não funcionais.
 
 **Testes de Desempenho**
