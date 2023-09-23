@@ -1,15 +1,25 @@
 # Plano de Testes de Usabilidade
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+## Objetivo
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+O teste de usabilidade tem como objetivo avaliar a facilidade de uso da aplicação pelos usuários finais. Queremos garantir que a aplicação seja intuitiva, eficaz e agradável de usar.
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+## Cenários de Teste
+Os cenários de teste de usabilidade serão baseados nas histórias de usuários e nas personas definidas anteriormente. Eles incluirão tarefas comuns que os usuários realizariam na aplicação, como cadastrar receitas e despesas, registrar investimentos e consultar o saldo.
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+## Métricas de Usabilidade
+Para avaliar a usabilidade da aplicação, utilizaremos métricas como:
+-	**Taxa de Sucesso:** A porcentagem de usuários que completam com sucesso uma tarefa específica.
+-	**Tempo de Completude:** Quanto tempo os usuários levam para concluir uma tarefa.
+-	**Erro de Usuário:** O número de erros cometidos pelos usuários ao realizar uma tarefa.
+-	**Satisfação do Usuário:** Avaliação subjetiva da experiência do usuário por meio de pesquisas de satisfação.
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+## Equipe de Teste de Usabilidade
+Na equipe de teste de usabilidade também incluirá os membros mencionados anteriormente. Eles serão responsáveis por conduzir os testes com usuários reais e coletar feedback valioso.
+
+## Preparação de Teste
+Antes de conduzir os testes de usabilidade, a equipe de teste deve preparar cenários de teste detalhados, garantir que os sistemas de gravação e observação estejam funcionando e recrutar um grupo de usuários representativos.
+
+## Coleta de Feedback
+Durante os testes de usabilidade, a equipe registrará as ações e reações dos usuários. Após os testes, será conduzida uma análise dos resultados para identificar áreas de melhoria na aplicação.
+
