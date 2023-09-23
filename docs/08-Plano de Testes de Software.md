@@ -6,19 +6,19 @@ O teste de software tem como objetivo verificar se a aplicação atende aos requ
 
 ## Tipos de Testes
 
-### Testes de Unidade:
+**Testes de Unidade**
 -	Verificar individualmente cada componente da aplicação, como funções e métodos, para garantir que funcionem conforme o esperado.
 
-### Testes de Integração:
+**Testes de Integração**
 - Avaliar como os diferentes módulos da aplicação se integram e se comunicam entre si.
 
-### Testes de Aceitação:
+**Testes de Aceitaçã**
 - Garantir que a aplicação atenda aos critérios de aceitação definidos, incluindo requisitos funcionais e não funcionais.
 
-### Testes de Desempenho:
+**Testes de Desempenho**
 - Avaliar o desempenho da aplicação, incluindo velocidade de carregamento, escalabilidade e capacidade de resposta sob carga.
 
-### Testes de Segurança:
+**Testes de Segurança**
 - Verificar se a aplicação é segura contra ameaças como ataques de injeção, autenticação inadequada e vulnerabilidades conhecidas.
 
 
