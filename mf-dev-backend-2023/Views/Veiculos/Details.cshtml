@@ -1,0 +1,42 @@
+﻿@model mf_dev_backend_2023.Models.Veiculo
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Dados do veículo</h1>
+
+<div>
+    <h4>Veiculo</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Placa)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Placa)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AnoFabricacao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AnoFabricacao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AnoModelo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AnoModelo)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-info">Voltar</a> |
+    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@Model?.Id">Editar</a> 
+</div>

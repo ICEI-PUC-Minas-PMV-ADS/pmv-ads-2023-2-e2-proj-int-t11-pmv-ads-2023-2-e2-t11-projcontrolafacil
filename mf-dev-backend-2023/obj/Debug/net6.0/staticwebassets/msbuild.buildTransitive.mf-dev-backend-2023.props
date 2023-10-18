@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\mf-dev-backend-2023.props" />
+</Project>

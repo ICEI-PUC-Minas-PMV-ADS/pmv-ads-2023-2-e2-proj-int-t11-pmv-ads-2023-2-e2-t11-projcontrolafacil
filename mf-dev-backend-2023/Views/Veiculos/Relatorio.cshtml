@@ -1,0 +1,53 @@
+﻿@model IEnumerable<mf_dev_backend_2023.Models.Consumo>
+
+@{
+    ViewData["Title"] = "Relatorio";
+}
+
+<h1>Extrato: @ViewBag.Veiculo.Nome</h1>
+
+<h3 class="text-warning">Valor total: @ViewBag.Total</h3>
+
+<table class="table">
+    <thead>
+        <tr class="text-light">
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Km)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+            <tr class="text-light">
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Km)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

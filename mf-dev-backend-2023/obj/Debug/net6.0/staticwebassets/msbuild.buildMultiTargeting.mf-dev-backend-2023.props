@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\mf-dev-backend-2023.props" />
+</Project>
