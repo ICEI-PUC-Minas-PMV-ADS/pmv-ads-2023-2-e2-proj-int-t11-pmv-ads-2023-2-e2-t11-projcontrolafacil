@@ -10,3 +10,59 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+>
+> - Plano de Testes de Software
+
+Objetivo
+O teste de software tem como objetivo verificar se a aplicação atende aos requisitos funcionais e não funcionais definidos. É essencial garantir que a aplicação funcione corretamente, seja estável e livre de erros.
+
+# Tipos de Testes
+
+* Verificar individualmente cada componente da aplicação, como funções e métodos, para garantir que funcionem conforme o esperado.
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/131082433/d391f1b0-085e-422e-a371-d8f5c4b8040e
+
+Verificando individualmente cada componente da aplicação, como: funções, métodos, tempo de resposta, possíveis erros e desempenho. Monstra que foi um sucesso, garantido uma ótima experiência para o usuário. O sistema teve um desenvolvimento muito acima do esperado, não apresentando falhas. 
+
+
+* Avaliar como os diferentes módulos da aplicação se integram e se comunicam entre si.
+ 
+Em resumo, a avaliação de diferentes módulos da aplicação se integram e se comunicam entre si foi fundamental para garantir que a aplicação funcione conforme o planejado, Assim sendo robusta, eficiente e capaz de atender às necessidades dos usuários. Foi crucial para a manutenção e evolução contínua do software. Apresentando um resultado acima do esperado e não deixando a deseja em erros entre comunicação de uma parte para a outra.
+
+
+* Garantir que a aplicação atenda aos critérios de aceitação definidos, incluindo requisitos funcionais e não funcionais.
+
+A aplicação foi capaz de garantir alguns criterios de requisitos funcionais como:
+
+| **ID** | **Descrição** | **Prioridade** |
+|--------|---------------|----------------|
+| RF-01  | O sistema deve permitir que o usuário registre suas despesas fixas (aluguel, streaming, seguro, internet, etc.). | Alta |
+| RF-02  | O sistema deve permitir que o usuário registre suas despesas esporádicas (corte de cabelo, jantar em restaurante, passeio no parque de diversões, etc.). | Alta |
+| RF-10  | O sistema deve permitir que o usuário registre despesas imprevistas (veterinário, hospital, medicamentos, etc.). | Média |
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/131082433/ced5f728-94c2-47a4-9aab-9a7637749c13)
+
+| **ID** | **Descrição** | **Prioridade** |
+|--------|---------------|----------------|
+| RF-05  | O sistema deve permitir que o usuário registre suas receitas fixas. (salário, mesada, etc.). | Alta |
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/131082433/3c8c56c3-d8b4-4a69-af77-e499c8d3152e)
+
+A aplicação foi capaz de garantir alguns criterios de requisitos não funcionais como:
+
+| **ID** | **Descrição** | **Prioridade** |
+|--------|---------------|----------------|
+| RNF-01  | O sistema deve ser acessível e de fácil usabilidade pelo usuário. | Alta |
+| RNF-03  | O sistema deve permitir fácil manutenibilidade. | Média |
+
+* Avaliar o desempenho da aplicação, incluindo velocidade de carregamento, escalabilidade e capacidade de resposta sob carga.
+
+O tempo médio de carregamento da aplicação foi avaliado e registrado. Durante os testes de velocidade de carregamento, observamos que a aplicação carrega a página inicial em tempo médio 1,07 segundos.
+Esse tempo foi cronometrado em diversas funções e diferente cargas de tarefas. Sendo em média  1,00 segundo para sair de uma aba para a outra, sendo um site bem rápido em responder os comandos dados a ele.
+Avaliamos a aplicação lida com um aumento na carga de trabalho. Durante os testes de escalabilidade observamos também que a aplicação manteve um desempenho consistente quando submetida a um usuário simultâneo, continuando em período de teste não ouve um número maior pois o servidor é local. A aplicação obteve um ótimo desempenho, não houve quaisquer gargalos identificados e medidas estão sendo formadas para melhorar a escalabilidade.
+
+* Verificar se a aplicação é segura contra ameaças como ataques de injeção, autenticação inadequada e vulnerabilidades conhecidas.
+
+Realizar testes de injeção para verificar a vulnerabilidade da aplicação a ataques comuns, como SQL injeção e XSS. Testar entradas de dados em formulários, URLs e qualquer lugar onde a aplicação aceite entrada do usuário e documentar todas as instâncias de sucesso e falha de injeção.
+Avaliar a autenticação da aplicação para garantir que seja segura. Testar a política de senhas, bloqueio de contas após tentativas malsucedidas, proteção contra força bruta, entre outros e documentar todas as descobertas relacionadas à autenticação.
+Realizar uma verificação em busca de vulnerabilidades conhecidas, usando ferramentas de varredura automatizada e análise manual. Verificar se a aplicação está executando versões atualizadas de bibliotecas e frameworks e se foram aplicadas correções de segurança e documentar todas as vulnerabilidades identificadas e suas respectivas correções.
