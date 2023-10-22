@@ -28,5 +28,6 @@ namespace mf_dev_backend_2023.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
     }
 }
