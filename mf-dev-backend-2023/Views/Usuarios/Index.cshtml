@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<mf_dev_backend_2023.Models.Usuario>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Usuários";
 }
 
-<h1>Index</h1>
+<h1>Usuários</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-success">Adicionar usuário</a>
 </p>
 <table class="table">
     <thead>
@@ -16,32 +16,27 @@
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Senha)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Perfil)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Senha)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Perfil)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Perfil)
+                </td>
+                <td>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Visualizar</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
