@@ -14,7 +14,9 @@
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "nativeDebugging": false,
+      "ancmHostingModel": "OutOfProcess"
     },
     "Docker": {
       "commandName": "Docker",
