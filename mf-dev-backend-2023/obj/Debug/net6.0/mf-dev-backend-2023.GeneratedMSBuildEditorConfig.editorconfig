@@ -16,26 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Cliente\Documents\GitHub\pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil\mf-dev-backend-2023
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Cliente/Documents/GitHub/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/mf-dev-backend-2023/Views/Consumos/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3Vtb3NcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Cliente/Documents/GitHub/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/mf-dev-backend-2023/Views/Consumos/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3Vtb3NcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Cliente/Documents/GitHub/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/mf-dev-backend-2023/Views/Consumos/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3Vtb3NcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Cliente/Documents/GitHub/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/mf-dev-backend-2023/Views/Consumos/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3Vtb3NcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Cliente/Documents/GitHub/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/mf-dev-backend-2023/Views/Consumos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3Vtb3NcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Cliente/Documents/GitHub/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/mf-dev-backend-2023/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,30 +30,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Cliente/Documents/GitHub/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/mf-dev-backend-2023/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Cliente/Documents/GitHub/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/mf-dev-backend-2023/Views/Veiculos/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVpY3Vsb3NcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Cliente/Documents/GitHub/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/mf-dev-backend-2023/Views/Veiculos/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVpY3Vsb3NcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Cliente/Documents/GitHub/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/mf-dev-backend-2023/Views/Veiculos/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVpY3Vsb3NcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Cliente/Documents/GitHub/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/mf-dev-backend-2023/Views/Veiculos/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVpY3Vsb3NcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Cliente/Documents/GitHub/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/mf-dev-backend-2023/Views/Veiculos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVpY3Vsb3NcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Cliente/Documents/GitHub/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/mf-dev-backend-2023/Views/Veiculos/Relatorio.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVpY3Vsb3NcUmVsYXRvcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Cliente/Documents/GitHub/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/mf-dev-backend-2023/Views/_ViewImports.cshtml]
