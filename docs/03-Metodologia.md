@@ -1,5 +1,3 @@
-
-
 # Metodologia
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
@@ -59,82 +57,41 @@ etiquetas:
   
 *Lucas Oliveira Soares.*
 
-## Backlog do Projeto
+## Backlog
 
-### Alta Prioridade:
-
-| **ID** | **Descrição** |
-|--------|---------------|
-| RF-01  | Registrar despesas fixas |
-| RF-02  | Registrar despesas esporádicas |
-| RF-03  | Registrar despesas com "prazo de validade" |
-| RF-05  | Registrar receitas fixas |
-| RF-06  | Registrar receitas esporádicas |
-| RF-07  | Registrar receitas com "prazo de validade" |
-| RF-09  | Cadastro com login e senha |
-| RF-10  | Registrar despesas imprevistas |
-| RF-16  | Histórico de transações |
-
-### Média Prioridade:
-
-| **ID** | **Descrição** |
-|--------|---------------|
-| RF-11  | Especificar motivo de uso da aplicação |
-| RF-17  | Gerenciar o perfil do usuário |
-| RF-20  | Alertar usuários sobre limites de orçamento |
-
-### Baixa Prioridade:
-
-| **ID** | **Descrição** |
-|--------|---------------|
-| RF-04  | Registrar meta de gastos |
-| RF-08  | Registrar investimentos |
-| RF-12  | Exibir notificações com dicas financeiras |
-| RF-13  | Permitir Dark Mode |
-| RF-14  | Página de registros customizável |
-| RF-15  | Importar extrato .csv |
-| RF-19  | Definir metas e criar orçamentos |
+1. Desenvolver o Template Padrão da Aplicação (HTML e CSS).
+2. Implementar funcionalidades principais:
+- Cadastro de despesas          
+- Cadastro de receitas           
+- Consulta de extrato            
+- Cadastro com login e senha     
+3. Realizar Testes de Software para as funcionalidades implementadas.
+4. Realizar Testes de Usabilidade com usuários participantes.
+5. Preencher a documentação correspondente.
 
 ## Planejamento das Sprints
 
-### Sprint 1:
+**Sprint 1:**
 
-| **ID** | **Descrição** |
-|--------|---------------|
-| RF-01  | Registrar despesas fixas |
-| RF-02  | Registrar despesas esporádicas |
-| RF-03  | Registrar despesas com "prazo de validade" |
-| RF-05  | Registrar receitas fixas |
-| RF-09  | Cadastro com login e senha |
+- Desenvolvimento do Template Padrão da Aplicação.
+- Início da implementação da funcionalidade Cadastro de despesas.
 
-### Sprint 2:
+**Sprint 2:**
 
-| **ID** | **Descrição** |
-|--------|---------------|
-| RF-06  | Registrar receitas esporádicas |
-| RF-07  | Registrar receitas com "prazo de validade" |
-| RF-10  | Registrar despesas imprevistas |
-| RF-16  | Histórico de transações |
-| RF-11  | Especificar motivo de uso da aplicação |
+- Implementação da funcionalidade Cadastro de receitas.
 
-### Sprint 3:
+**Sprint 3:**
 
-| **ID** | **Descrição** |
-|--------|---------------|
-| RF-17  | Gerenciar o perfil do usuário |
-| RF-20  | Alertar usuários sobre limites de orçamento |
-| RF-04  | Registrar meta de gastos |
-| RF-08  | Registrar investimentos |
+- Implementação da funcionalidade Consulta de extrato.
 
-### Sprint 4:
+**Sprint 4:**
 
-| **ID** | **Descrição** |
-|--------|---------------|
-| RF-12  | Exibir notificações com dicas financeiras |
-| RF-13  | Permitir Dark Mode |
-| RF-14  | Página de registros customizável |
-| RF-15  | Importar extrato .csv |
-| RF-19  | Definir metas e criar orçamentos |
+- Implementação da funcionalidade Cadastro com login e senha.
+
+**Sprint 5:**
+
+- Testes de Software.
+-  Testes de Usabilidade.
 
 ### Ferramentas
 
