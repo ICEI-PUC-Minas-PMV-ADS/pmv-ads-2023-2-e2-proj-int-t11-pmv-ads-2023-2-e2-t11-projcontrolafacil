@@ -9,7 +9,7 @@ namespace mf_dev_backend_2023.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Veiculos",
+                name: "Transacao",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -21,14 +21,14 @@ namespace mf_dev_backend_2023.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Veiculos", x => x.Id);
+                    table.PrimaryKey("PK_Transacao", x => x.Id);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Veiculos");
+                name: "Transacao");
         }
     }
 }
