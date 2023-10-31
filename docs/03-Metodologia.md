@@ -59,36 +59,28 @@ etiquetas:
 
 ## Backlog
 
-1. Desenvolver o Template Padrão da Aplicação (HTML e CSS).
-2. Implementar funcionalidades principais:
-- Cadastro de despesas          
-- Cadastro de receitas           
-- Consulta de extrato            
-- Cadastro com login e senha     
-3. Realizar Testes de Software para as funcionalidades implementadas.
-4. Realizar Testes de Usabilidade com usuários participantes.
-5. Preencher a documentação correspondente.
+1. Implementar funcionalidades principais:
+- visualizar/registrar despesas fixas.
+- visualizar/registrar despesas esporádicas.
+- visualizar/registrar receitas fixas.
+- visualizar/registrar receitas esporádicas.           
+2. Realizar Testes de Software para as funcionalidades implementadas.
+3. Realizar Testes de Usabilidade.
+4. Preencher a documentação correspondente.
 
 ## Planejamento das Sprints
 
 **Sprint 1:**
 
-- Desenvolvimento do Template Padrão da Aplicação.
-- Início da implementação da funcionalidade Cadastro de despesas.
+- visualizar/registrar despesas fixas.
+- visualizar/registrar despesas esporádicas.
 
 **Sprint 2:**
 
-- Implementação da funcionalidade Cadastro de receitas.
+- visualizar/registrar receitas fixas.
+- visualizar/registrar receitas esporádicas.   
 
 **Sprint 3:**
-
-- Implementação da funcionalidade Consulta de extrato.
-
-**Sprint 4:**
-
-- Implementação da funcionalidade Cadastro com login e senha.
-
-**Sprint 5:**
 
 - Testes de Software.
 -  Testes de Usabilidade.
