@@ -1,0 +1,52 @@
+﻿@model IEnumerable<mf_dev_backend_2023.Models.Transacao>
+
+@{
+    ViewData["Title"] = "Transações";
+}
+<h2><i class="fa fa-money-bill-transfer"></i> Transações</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-success"><i class="fa fa-plus"></i> Adicionar transação</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id" class="text-secondary">@item.Tipo</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a>
+                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id"><i class="fa fa-search"></i> </a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id"><i class="fa fa-trash"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
