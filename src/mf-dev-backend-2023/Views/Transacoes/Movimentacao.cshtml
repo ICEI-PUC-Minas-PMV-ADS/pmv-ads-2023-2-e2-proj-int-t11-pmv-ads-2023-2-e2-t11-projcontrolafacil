@@ -3,6 +3,12 @@
 @{
     ViewData["Title"] = @ViewBag.Titulo;
 }
+<style>
+    #btn-voltar:hover {
+        background-color: #a87dff;
+        color: #fff;
+    }
+</style>
 
 <h2><i class="fa-solid fa-money-bill"></i> @ViewBag.Titulo</h2>
 <h3 class="text-secondary">Valor total: R$ @ViewBag.Total</h3>
@@ -50,4 +56,4 @@
         }
     </tbody>
 </table>
-<a asp-action="Index" class="btn btn-secondary">Voltar</a>
+<a asp-action="Index" id="btn-voltar" class="btn btn-secondary">Voltar</a>

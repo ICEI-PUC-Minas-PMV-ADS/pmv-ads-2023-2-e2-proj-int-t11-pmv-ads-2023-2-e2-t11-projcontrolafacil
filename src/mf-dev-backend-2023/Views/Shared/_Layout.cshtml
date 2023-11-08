@@ -9,10 +9,15 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/mf_dev_backend_2023.styles.css" asp-append-version="true" />
     <link rel="shortcut icon" href="~/img/logo_grafico.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,700;1,100&family=Montserrat:wght@100;300;400;500;600;700&display=swap"
+    rel="stylesheet">
     
     <style>
         body {
             background-color: #2125291a;
+            font-family:'Montserrat', sans-serif;
         }
 
         li {
@@ -27,10 +32,12 @@
         }
 
         footer {
-            color: #9b9d9e;
+            color: #a87dff;
             position: absolute;
             bottom: 0;
             width: 100%;
+            padding-top: 10px;
+            background-color: #000;
         }
     </style>
 </head>
@@ -38,7 +45,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark bg-gradient border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/logo.ico" width="170px"  /></a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/logo.ico" width="150px"  /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -88,8 +95,9 @@
         </main>
     </div>
 
-    <footer class="text-center bg-dark bg-gradient site-footer">
-        <div class="text-center p-3">
+    <footer class="text-center  site-footer">
+        <img src="~/img/logo_grafico.ico" height="25px" />
+        <div class="text-center p-3 ">
             &copy; 2023 - Controla Fácil
         </div>
     </footer>

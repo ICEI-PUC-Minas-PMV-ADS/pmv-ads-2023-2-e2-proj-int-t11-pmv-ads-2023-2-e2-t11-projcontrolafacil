@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cliente\\Documents\\GitHub\\pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil\\mf-dev-backend-2023\\mf-dev-backend-2023.csproj": {}
+    "C:\\Users\\EduardoLima\\source\\pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil\\mf-dev-backend-2023\\mf-dev-backend-2023.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cliente\\Documents\\GitHub\\pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil\\mf-dev-backend-2023\\mf-dev-backend-2023.csproj": {
+    "C:\\Users\\EduardoLima\\source\\pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil\\mf-dev-backend-2023\\mf-dev-backend-2023.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cliente\\Documents\\GitHub\\pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil\\mf-dev-backend-2023\\mf-dev-backend-2023.csproj",
+        "projectUniqueName": "C:\\Users\\EduardoLima\\source\\pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil\\mf-dev-backend-2023\\mf-dev-backend-2023.csproj",
         "projectName": "mf-dev-backend-2023",
-        "projectPath": "C:\\Users\\Cliente\\Documents\\GitHub\\pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil\\mf-dev-backend-2023\\mf-dev-backend-2023.csproj",
-        "packagesPath": "C:\\Users\\Cliente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cliente\\Documents\\GitHub\\pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil\\mf-dev-backend-2023\\obj\\",
+        "projectPath": "C:\\Users\\EduardoLima\\source\\pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil\\mf-dev-backend-2023\\mf-dev-backend-2023.csproj",
+        "packagesPath": "C:\\Users\\EduardoLima\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EduardoLima\\source\\pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil\\mf-dev-backend-2023\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Cliente\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\EduardoLima\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
