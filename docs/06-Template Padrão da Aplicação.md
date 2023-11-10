@@ -15,3 +15,4 @@ O template desenvolvido está disponível no site GitHub e será composto pelos 
 3. Tela de login;
 4. Tela de receitas;
 5. Tela de despesas;
+6. Tela de transações;
