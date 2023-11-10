@@ -16,6 +16,7 @@ O template desenvolvido está disponível no site GitHub e será composto pelos 
 4. Tela de receitas;
 5. Tela de despesas;
 6. Tela de transações;
+7. Tela de usuários (acesso apenas por gestores da aplicação);
 
 ###  **Landing Page**
 
@@ -23,6 +24,23 @@ Tela de recepção do usuário.
 
 ![Landing Page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/ec1519fc-7945-46cd-9ae8-410d577d25dc)
 <sub>*Figura: Landing Page*</sub>
+
+
+###  **Tela de cadastro de novo usuário**
+
+Tela que permite ao usuário fazer seu cadastro para ter acesso às funções da aplicação.
+
+![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/dfc33262-32a4-490e-8260-f52522b80ac6)
+<sub>*Figura: Tela de cadastro*</sub>
+
+###  **Tela de login**
+
+Tela que permite ao usuário acessar ao seu perfil com autenticação via login e senha.
+
+![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/48902f8b-bb12-4a1b-a2bf-06cc9c63984e)
+<sub>*Figura: Tela de login*</sub>
+
+
 
 
 ###  **Tela de Receitas**
@@ -46,4 +64,11 @@ Tela que permite ao usuário fazer ao usuário fazer o acompanhamento e gestão 
 
 ![Transacoes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/b12e075d-a763-4a8f-9726-69f1c35698e9)
 <sub>*Figura: Tela de transações*</sub>
+
+###  **Tela de Usuários**
+
+Tela que permite aos gestores da aplicação fazer a consulta, gestão e acompanhamento dos cadastrados na aplicação.
+
+![Tela de Usuários (adm)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/886638fa-c350-40ff-8de8-d52781ac5d16)
+<sub>*Figura: Tela de usuários*</sub>
 
