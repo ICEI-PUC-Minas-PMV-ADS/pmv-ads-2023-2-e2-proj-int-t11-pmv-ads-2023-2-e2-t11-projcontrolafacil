@@ -8,12 +8,10 @@ A aplicação *Controla Fácil* adotou o seguinte template padrão:
 
 <sub>*Figura 10: Template padrão da aplicação*</sub>
 
-O template desenvolvido está disponível no site GitHub e é composto pelos seguintes layouts:
+O template desenvolvido está disponível no site GitHub e será composto pelos seguintes layouts:
 
 1. *Landing Page*;
 2. Tela de cadastro do usuário;
 3. Tela de login;
-4. *Home Page* do usuário;
-5. Tela de investimentos;
-6. Tela de receitas;
-7. Tela de despesas;
+4. Tela de receitas;
+5. Tela de despesas;
