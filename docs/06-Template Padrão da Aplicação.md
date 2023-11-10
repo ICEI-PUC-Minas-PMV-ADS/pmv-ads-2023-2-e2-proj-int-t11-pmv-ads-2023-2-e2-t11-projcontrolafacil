@@ -17,13 +17,20 @@ O template desenvolvido está disponível no site GitHub e será composto pelos 
 5. Tela de despesas;
 6. Tela de transações;
 
+###  **Landing Page**
+
+Tela de recepção do usuário.
+
+![Landing Page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/ec1519fc-7945-46cd-9ae8-410d577d25dc)
+<sub>*Figura: Landing Page*</sub>
+
+
 ###  **Tela de Receitas**
 
-![Receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/339867b1-acf0-4b0e-b816-5d8dba50b3d4)
 Tela que permite ao usuário fazer ao usuário fazer o acompanhamento e gestão de todas as receitas cadastradas.
 
-
-<sub>*Figura: Tela de transações*</sub>
+![Receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/339867b1-acf0-4b0e-b816-5d8dba50b3d4)
+<sub>*Figura: Tela de receitas*</sub>
 
 
 ###  **Tela de Despesas**
@@ -31,7 +38,7 @@ Tela que permite ao usuário fazer ao usuário fazer o acompanhamento e gestão 
 Tela que permite ao usuário fazer ao usuário fazer o acompanhamento e gestão de todas as despesas cadastradas.
 
 ![Despesas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/e6197ec2-00e2-438d-a54e-269a79b7fdcf)
-<sub>*Figura: Tela de transações*</sub>
+<sub>*Figura: Tela de despesas*</sub>
 
 ###  **Tela de Transações**
 
