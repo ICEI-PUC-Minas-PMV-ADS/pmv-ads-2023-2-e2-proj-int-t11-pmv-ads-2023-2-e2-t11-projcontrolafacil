@@ -6,6 +6,13 @@ Implementação do sistema descrita por meio dos requisitos funcionais e/ou não
 
 Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos desenvolvidos.
 
+###  **Landing Page**
+
+Tela de recepção do usuário.
+
+![Landing Page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/ec1519fc-7945-46cd-9ae8-410d577d25dc)
+<sub>*Figura: Landing Page*</sub>
+
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
