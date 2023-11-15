@@ -62,6 +62,50 @@ Tela que permite ao usuário fazer ao usuário fazer o acompanhamento e gestão 
 |RF-06| RF-06: Permitir que o usuário registre suas receitas esporádicas | 
 RF-07: Permitir que o usuário registre suas receitas com “prazo de validade”|  | 
 
+###  **Tela de Despesas**
+
+Tela que permite ao usuário fazer ao usuário fazer o acompanhamento e gestão de todas as despesas cadastradas.
+
+![Despesas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/e6197ec2-00e2-438d-a54e-269a79b7fdcf)
+<sub>*Figura: Tela de despesas*</sub>
+
+**Código fonte**
+
+
+###  **Tela de Transações**
+
+Tela que permite ao usuário fazer ao usuário fazer o acompanhamento e gestão de todas as transações cadastradas, seja ela de despesas ou receitas.
+
+![Transacoes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/b12e075d-a763-4a8f-9726-69f1c35698e9)
+<sub>*Figura: Tela de transações*</sub>
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RF-08| RF-08: Permitir que o usuário registre seus investimentos | Views.transacoes/ Create.cshtml/ Delete.cshtml/ Edit.cshtml |
+
+**Codigo Fonte**
+
+![transação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/127629619/f5e0bc39-cfbe-405b-82dd-97685c274ff3)
+
+###  **Tela de Usuários**
+
+Tela que permite aos gestores da aplicação fazer a consulta, gestão e acompanhamento dos cadastrados na aplicação.
+
+![Tela de Usuários (adm)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/886638fa-c350-40ff-8de8-d52781ac5d16)
+<sub>*Figura: Tela de usuários*</sub>
+
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RF-0|
+
+
+**Codigo Fonte**
+
+![usuario](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/127629619/8446df03-b011-4f57-8fad-8777385c3d82)
+
+
+
 
 # Instruções de acesso
 Abra um navegador de internet e insira a seguinte URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil
