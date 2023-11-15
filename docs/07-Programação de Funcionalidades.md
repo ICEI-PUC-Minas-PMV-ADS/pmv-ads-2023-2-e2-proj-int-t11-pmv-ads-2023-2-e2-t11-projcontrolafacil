@@ -15,8 +15,11 @@ Tela de recepção do usuário.
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|RF-002| Emitir um relatório de tarefas no mês   | relatorio.shtml |
+|RF-17| Permitir que o usuário conheça a plataforma | Index.cshtml / Privacy.cshtml | 
+
+Codigo Fonte
+![landingpage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/127629619/9b14e721-6c7c-4cfd-b436-356a789793b4)
+
 
 # Instruções de acesso
 
