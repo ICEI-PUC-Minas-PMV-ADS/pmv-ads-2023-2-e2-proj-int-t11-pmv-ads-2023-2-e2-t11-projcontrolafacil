@@ -17,11 +17,54 @@ Tela de recepção do usuário.
 |------|-----------------------------------------|----|
 |RF-17| Permitir que o usuário conheça a plataforma | Index.cshtml / Privacy.cshtml | 
 
-Codigo Fonte
+**Codigo Fonte**
 ![landingpage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/127629619/9b14e721-6c7c-4cfd-b436-356a789793b4)
+
+###  **Tela de cadastro de novo usuário**
+
+Tela que permite ao usuário fazer seu cadastro para ter acesso às funções da aplicação.
+
+![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/dfc33262-32a4-490e-8260-f52522b80ac6)
+<sub>*Figura: Tela de cadastro*</sub>
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RF-09| Permitir que o usuário faça um cadastro com login e senha. | Create.cshtml / Delete.cshtml/ Index.cshtml/ Views.usuarios | 
+
+**Código fonte**
+![cadastrar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/127629619/948ad8d3-3624-4a3e-be3e-965b81775d6f)
+
+###  **Tela de login**
+
+Tela que permite ao usuário acessar ao seu perfil com autenticação via login e senha.
+
+![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/48902f8b-bb12-4a1b-a2bf-06cc9c63984e)
+<sub>*Figura: Tela de login*</sub>
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RF-09| Permitir que o usuário faça um cadastro com login e senha. | login.cshtml / Views.usuarios | 
+
+**Código fonte**
+
+![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/127629619/bf835055-96c1-4a83-8af8-ce3433b97e09)
+
+
+###  **Tela de Receitas**
+
+Tela que permite ao usuário fazer ao usuário fazer o acompanhamento e gestão de todas as receitas cadastradas.
+
+![Receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/339867b1-acf0-4b0e-b816-5d8dba50b3d4)
+<sub>*Figura: Tela de receitas*</sub>
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RF-06| RF-06: Permitir que o usuário registre suas receitas esporádicas | 
+RF-07: Permitir que o usuário registre suas receitas com “prazo de validade”|  | 
 
 
 # Instruções de acesso
+Abra um navegador de internet e insira a seguinte URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil
 
 Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
 
