@@ -110,11 +110,10 @@ Tela que permite aos gestores da aplicação fazer a consulta, gestão e acompan
 # Instruções de acesso
 Abra um navegador de internet e insira a seguinte URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+Usuário de teste;
+login: 1 
+senha: 123 
 
 > **Links Úteis**:
 >
