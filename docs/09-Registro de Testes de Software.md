@@ -6,8 +6,15 @@
 
 * Verificar individualmente cada componente da aplicação, como funções e métodos, para garantir que funcionem conforme o esperado.
 
+## Teste Tela de Login
+
 https://youtu.be/eE5Of4Kz8JE
-Teste de tela de login
+
+## Teste de responsividade e navegação
+Telas de transações, receitas e despesas
+
+https://youtu.be/GhOngmP9Vrc
+
 
 Verificando individualmente cada componente da aplicação, como: funções, métodos, tempo de resposta, possíveis erros e desempenho. Monstra que foi um sucesso, garantido uma ótima experiência para o usuário. O sistema teve um desenvolvimento muito acima do esperado, não apresentando falhas. 
 
