@@ -18,7 +18,7 @@ Execução do teste de login e senha, além do teste de responsividade. Conforme
 
 https://youtu.be/GhOngmP9Vrc
 
-Conforme apresentado no vídeo disponível no link acima, a aplicação performou bem, sem erros a serem mencionados.
+Conforme apresentado no vídeo disponível no link acima, a aplicação performou bem em plataformas com diferentes tamanhos de tela, sem erros a serem mencionados.
 
 
 ## Teste de gestão de transações
