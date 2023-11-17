@@ -1,11 +1,5 @@
 # Plano de Testes de Software
 
-## Objetivo
-
-O teste de software tem como objetivo verificar se a aplicação atende aos requisitos funcionais e não funcionais definidos. É essencial garantir que a aplicação funcione corretamente, seja estável e livre de erros.
-
-# Plano de Testes de Software
-
 Os requisitos para realização dos testes de software são:
 
 - Navegador de Internet
