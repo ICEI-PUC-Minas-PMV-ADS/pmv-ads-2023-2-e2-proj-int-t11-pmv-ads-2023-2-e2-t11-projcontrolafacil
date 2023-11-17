@@ -20,6 +20,7 @@ https://youtu.be/GhOngmP9Vrc
 
 Conforme apresentado no vídeo disponível no link acima, a aplicação performou bem em plataformas com diferentes tamanhos de tela, sem erros a serem mencionados.
 
+![Responsividade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/88061a3a-3b93-4c7c-bb07-77c505e38d23)
 
 ## Teste de gestão de transações
 
