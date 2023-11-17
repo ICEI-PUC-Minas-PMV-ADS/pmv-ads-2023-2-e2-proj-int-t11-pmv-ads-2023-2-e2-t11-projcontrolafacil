@@ -18,8 +18,37 @@ Execução do teste de login e senha, além do teste de responsividade. Conforme
 
 https://youtu.be/GhOngmP9Vrc
 
+Conforme apresentado no vídeo disponível no link acima, a aplicação performou bem, sem erros a serem mencionados.
+
+
+## Teste de gestão de transações
+
+https://youtu.be/G25WqzDabMM
+
 Execução do teste nas telas de transações, receitas e despesas. Conforme apresentado no vídeo do youtube no link acima, a aplicação performou bem, sem qualquer erro a ser destacado, logrando êxito em todos os testes.
 
+![Transações](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/21ef3b94-0b87-4112-9c4e-d03723e69b61)
+
+## Teste de gestão de usuários (função apenas para gestores da aplicação)
+
+https://youtu.be/I9-SXDAc_tU
+
+Conforme apresentado no vídeo do youtube no link acima, a aplicação performou bem, sem qualquer erro a ser destacado, logrando êxito em todos os testes.
+
+![Transações](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/21ef3b94-0b87-4112-9c4e-d03723e69b61)
+
+![Usuários](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/f4ecd4a2-731e-4ebf-a63c-412f3994c2a1)
+
+## Teste Tela de Cadastro
+
+https://youtu.be/DYwyYML07RQ
+
+Conforme apresentado no link acima, o teste trouxe resultados satisfatórios, cumprindo com êxito a função de autenticação de usuário.
+
+![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/eec22ff7-82f9-41c1-ac89-fcd93f30a5c6)
+
+
+## Conclusões
 
 Verificando individualmente cada componente da aplicação, como: funções, métodos, tempo de resposta, possíveis erros e desempenho. Monstra que foi um sucesso, garantido uma ótima experiência para o usuário. O sistema teve um desenvolvimento muito acima do esperado, não apresentando falhas. 
 
