@@ -1,8 +1,350 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+@{
+    ViewData["Title"] = "Início";
 }
 
-<div class="text-center">
-    <h1 class="display-4">PUC Minas</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div style; width: 50%;">
+    <H1>Introdução do mercado de ações</H1>
+    <p>
+        O mercado de ações é um ambiente onde investidores compram e vendem partes de empresas, conhecidas como ações. Cada ação representa uma pequena parcela da propriedade da empresa e os investidores buscam lucro através da valorização dessas ações ao longo do tempo. Além disso, as empresas distribuem parte de seus lucros aos acionistas na forma de dividendos.
+
+        Os dividendos são pagamentos regulares feitos aos detentores de ações, proporcionando uma fonte adicional de renda. Planejar investimentos em ações é crucial para alcançar metas financeiras, pois permite o crescimento do capital ao longo do tempo. Contudo, é vital acompanhar o desempenho do mercado e das empresas para tomar decisões informadas.
+
+        A importância de se planejar e acompanhar o mercado reside na volatilidade das ações. Planejamento ajuda a definir metas e estratégias, enquanto o acompanhamento contínuo permite ajustes conforme as condições do mercado evoluem. A Petrobras, como exemplo, apresenta movimentos de altas e baixas, refletindo fatores econômicos, políticos e do setor de energia.
+
+        Abaixo, você encontrará um gráfico visualizando as variações históricas de preço das ações da Petrobras. Este recurso proporciona insights valiosos para investidores que desejam compreender e antecipar as tendências do mercado, contribuindo para uma abordagem mais informada e estratégica na busca por resultados positivos.
+    </p>
+    <h1>Ações da Petrobras</h1>
+</div>
+<body>
+    <div id="chartdiv"></div>
+
+</body>
+
+<head>
+    <title>Grafico</title>
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/stock.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+</head><style>
+    #chartcontrols {
+        
+        padding: 5px 5px 0 16px;
+        max-width: 100%;
+    }
+
+    #chartdiv {
+        width: 100%;
+        height: 600px;
+        max-width: 100%;
+    }
+</style>
+<script>
+    am5.ready(function () {
+
+        // Create root element
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/getting-started/#Root_element
+        var root = am5.Root.new("chartdiv");
+
+
+        // Set themes
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/concepts/themes/
+        root.setThemes([
+            am5themes_Animated.new(root)
+        ]);
+
+
+        // Create a stock chart
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/charts/stock/#Instantiating_the_chart
+        var stockChart = root.container.children.push(am5stock.StockChart.new(root, {
+        }));
+
+
+        // Set global number format
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/concepts/formatters/formatting-numbers/
+        root.numberFormatter.set("numberFormat", "#,###.00");
+
+
+        // Create a main stock panel (chart)
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/charts/stock/#Adding_panels
+        var mainPanel = stockChart.panels.push(am5stock.StockPanel.new(root, {
+            wheelY: "zoomX",
+            height: am5.percent(70),
+            panX: true,
+            panY: true
+        }));
+
+
+        // Create value axis
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+        var valueAxis = mainPanel.yAxes.push(am5xy.ValueAxis.new(root, {
+            renderer: am5xy.AxisRendererY.new(root, {
+                pan: "zoom"
+            }),
+            tooltip: am5.Tooltip.new(root, {}),
+            numberFormat: "#,###.00",
+            extraTooltipPrecision: 2
+        }));
+
+        var dateAxis = mainPanel.xAxes.push(am5xy.GaplessDateAxis.new(root, {
+            groupData: true,
+            groupCount: 150,
+            baseInterval: {
+                timeUnit: "day",
+                count: 1
+            },
+            renderer: am5xy.AxisRendererX.new(root, {}),
+            tooltip: am5.Tooltip.new(root, {})
+        }));
+
+
+        // Add series
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
+        var valueSeries = mainPanel.series.push(am5xy.CandlestickSeries.new(root, {
+            name: "AMCH",
+            clustered: false,
+            valueXField: "Date",
+            valueYField: "Close",
+            highValueYField: "High",
+            lowValueYField: "Low",
+            openValueYField: "Open",
+            calculateAggregates: true,
+            xAxis: dateAxis,
+            yAxis: valueAxis,
+            legendValueText: "open: [bold]{openValueY}[/] high: [bold]{highValueY}[/] low: [bold]{lowValueY}[/] close: [bold]{valueY}[/]",
+            legendRangeValueText: ""
+        }));
+
+
+        // Set main value series
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/charts/stock/#Setting_main_series
+        stockChart.set("stockSeries", valueSeries);
+
+
+        // Add a stock legend
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/charts/stock/stock-legend/
+        var valueLegend = mainPanel.plotContainer.children.push(am5stock.StockLegend.new(root, {
+            stockChart: stockChart
+        }));
+
+
+        // Create a volume panel (chart)
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/charts/stock/#Adding_panels
+        var volumePanel = stockChart.panels.push(am5stock.StockPanel.new(root, {
+            wheelY: "zoomX",
+            panX: true,
+            panY: false,
+            height: am5.percent(30),
+            paddingTop: 6
+        }));
+
+        // hide close button as we don't want this panel to be closed
+        volumePanel.panelControls.closeButton.set("forceHidden", true);
+
+        var volumeDateAxis = volumePanel.xAxes.push(am5xy.GaplessDateAxis.new(root, {
+            baseInterval: {
+                timeUnit: "day",
+                count: 1
+            },
+            groupData: true,
+            groupCount: 150,
+            renderer: am5xy.AxisRendererX.new(root, {}),
+            tooltip: am5.Tooltip.new(root, {
+                forceHidden: true
+            }),
+            height: 0
+        }));
+
+        // we don't need it to be visible
+        volumeDateAxis.get("renderer").labels.template.set("forceHidden", true);
+
+        // Create volume axis
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+        var volumeAxisRenderer = am5xy.AxisRendererY.new(root, {});
+
+        var volumeValueAxis = volumePanel.yAxes.push(am5xy.ValueAxis.new(root, {
+            numberFormat: "#.#a",
+            renderer: volumeAxisRenderer
+        }));
+
+
+        // Add series
+        // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
+        var volumeSeries = volumePanel.series.push(am5xy.ColumnSeries.new(root, {
+            name: "Volume",
+            clustered: false,
+            valueXField: "Date",
+            valueYField: "Volume",
+            xAxis: volumeDateAxis,
+            yAxis: volumeValueAxis,
+            legendValueText: "[bold]{valueY.formatNumber('#,###.0a')}[/]"
+        }));
+
+        volumeSeries.columns.template.setAll({
+            strokeOpacity: 0,
+            fillOpacity: 0.5
+        });
+
+        // color columns by stock rules
+        volumeSeries.columns.template.adapters.add("fill", function (fill, target) {
+            var dataItem = target.dataItem;
+            if (dataItem) {
+                return stockChart.getVolumeColor(dataItem);
+            }
+            return fill;
+        })
+
+        // Add a stock legend
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/charts/stock/stock-legend/
+        var volumeLegend = volumePanel.plotContainer.children.push(am5stock.StockLegend.new(root, {
+            stockChart: stockChart
+        }));
+
+
+        // Set main series
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/charts/stock/#Setting_main_series
+        stockChart.set("volumeSeries", volumeSeries);
+        valueLegend.data.setAll([valueSeries]);
+        volumeLegend.data.setAll([volumeSeries]);
+
+
+        // Add cursor(s)
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/charts/xy-chart/cursor/
+        mainPanel.set("cursor", am5xy.XYCursor.new(root, {
+            yAxis: valueAxis,
+            xAxis: dateAxis,
+            snapToSeries: [valueSeries],
+            snapToSeriesBy: "y!"
+        }));
+
+
+        var volumeCursor = volumePanel.set("cursor", am5xy.XYCursor.new(root, {
+            yAxis: volumeValueAxis,
+            xAxis: volumeDateAxis,
+            snapToSeries: [volumeSeries],
+            snapToSeriesBy: "y!"
+        }));
+
+        volumeCursor.lineY.set("forceHidden", true);
+
+        // Add scrollbar
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/charts/xy-chart/scrollbars/
+        var scrollbar = mainPanel.set("scrollbarX", am5xy.XYChartScrollbar.new(root, {
+            orientation: "horizontal",
+            height: 50
+        }));
+        stockChart.toolsContainer.children.push(scrollbar);
+
+        var sbDateAxis = scrollbar.chart.xAxes.push(am5xy.GaplessDateAxis.new(root, {
+            baseInterval: {
+                timeUnit: "day",
+                count: 1
+            },
+            renderer: am5xy.AxisRendererX.new(root, {})
+        }));
+
+        var sbValueAxis = scrollbar.chart.yAxes.push(am5xy.ValueAxis.new(root, {
+            renderer: am5xy.AxisRendererY.new(root, {})
+        }));
+
+        var sbSeries = scrollbar.chart.series.push(am5xy.LineSeries.new(root, {
+            valueYField: "Close",
+            valueXField: "Date",
+            xAxis: sbDateAxis,
+            yAxis: sbValueAxis
+        }));
+
+        sbSeries.fills.template.setAll({
+            visible: true,
+            fillOpacity: 0.3
+        });
+
+
+
+        // Function that dynamically loads data
+        function loadData(ticker, series, granularity) {
+
+            // Load external data
+            // https://www.amcharts.com/docs/v5/charts/xy-chart/series/#Setting_data
+            am5.net.load("https://www.amcharts.com/wp-content/uploads/assets/docs/stock/" + ticker + "_big_" + granularity + ".csv").then(function (result) {
+
+                // Parse loaded data
+                var data = am5.CSVParser.parse(result.response, {
+                    delimiter: ",",
+                    skipEmpty: true,
+                    useColumnNames: true
+                });
+
+                // Process data (convert dates and values)
+                var processor = am5.DataProcessor.new(root, {
+                    dateFields: ["Date"],
+                    dateFormat: "yyyy-MM-dd",
+                    numericFields: ["Open", "High", "Low", "Close", "Adj Close", "Volume"]
+                });
+                processor.processMany(data);
+
+                // Set data
+                am5.array.each(series, function (item) {
+                    item.data.setAll(data);
+                });
+            });
+        }
+
+        // Load initial data for the first series
+        var currentGranularity = "day";
+        loadData("MSFT", [valueSeries, volumeSeries, sbSeries], currentGranularity);
+
+
+        // Stock toolbar
+        // -------------------------------------------------------------------------------
+        // https://www.amcharts.com/docs/v5/charts/stock/toolbar/
+        var toolbar = am5stock.StockToolbar.new(root, {
+            container: document.getElementById("chartcontrols"),
+            stockChart: stockChart,
+            controls: [
+                am5stock.IndicatorControl.new(root, {
+                    stockChart: stockChart,
+                    legend: valueLegend
+                }),
+                am5stock.DateRangeSelector.new(root, {
+                    stockChart: stockChart
+                }),
+                am5stock.PeriodSelector.new(root, {
+                    stockChart: stockChart
+                }),
+                am5stock.DrawingControl.new(root, {
+                    stockChart: stockChart
+                }),
+                am5stock.ResetControl.new(root, {
+                    stockChart: stockChart
+                }),
+                am5stock.SettingsControl.new(root, {
+                    stockChart: stockChart
+                })
+            ]
+        })
+
+    }); // end am5.ready()
+</script>
+<div style; width: 50%;">
+    <h1>Gerenciamento de dinheiro e tempo</h1>
+    <p>Gerenciar nosso dinheiro é mais do que simples controle financeiro; é um passo crucial para a independência financeira. Ao compreender nossas receitas e despesas, ganhamos o poder de tomar decisões informadas e construir um futuro financeiro sólido. Investir em mercados de ações e ativos é uma extensão desse princípio, oferecendo a oportunidade de fazer nosso dinheiro trabalhar para nós. Os mercados financeiros, embora voláteis, têm o potencial de crescimento a longo prazo, contribuindo para a criação de patrimônio e a realização de objetivos financeiros. Ao adotar uma abordagem estratégica para o gerenciamento financeiro e investimentos, podemos não apenas assegurar nosso presente, mas também construir um alicerce para um futuro financeiro próspero.</p>
+    <p>Uma pessoa desorganizada com a vida financeira enfrenta constantes desafios. A falta de planejamento leva a gastos impulsivos, acumulação de dívidas e estresse constante. A ausência de um orçamento claro resulta em dificuldades para atender às necessidades básicas e alcançar metas financeiras. A procrastinação em lidar com contas e obrigações financeiras agrava a situação, resultando em juros e penalidades. Relações pessoais podem ser afetadas devido ao estresse financeiro, gerando conflitos e isolamento. Superar essa desordem requer mudanças de hábitos, disciplina financeira e busca de orientação para estabelecer um caminho sustentável rumo à estabilidade econômica.</p>
+    <h1>A gestão eficiente do tempo</h1>
+    <p>A gestão eficiente do tempo é a chave para o sucesso em todas as áreas da vida. Cada minuto bem utilizado representa uma oportunidade de avançar em direção aos objetivos. Ao priorizar tarefas, estabelecer metas realistas e evitar procrastinação, somos capazes de otimizar nossos dias. A gestão de tempo não apenas aumenta a produtividade, mas também reduz o estresse, permitindo uma abordagem mais equilibrada e focada nas conquistas pessoais e profissionais. Investir tempo na gestão eficaz resulta em uma vida mais realizada e significativa.</p>
 </div>
