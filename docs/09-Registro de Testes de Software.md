@@ -10,10 +10,15 @@
 
 https://youtu.be/eE5Of4Kz8JE
 
+Execução do teste de login e senha, além do teste de responsividade. Conforme apresentado no link acima, o teste trouxe resultados satisfatórios, cumprindo com êxito a função de autenticação de usuário.
+
+![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/099d8cb5-bdec-4e5b-ab4c-c6cd7ffb24a3)
+
 ## Teste de responsividade e navegação
-Telas de transações, receitas e despesas
 
 https://youtu.be/GhOngmP9Vrc
+
+Execução do teste nas telas de transações, receitas e despesas. Conforme apresentado no vídeo do youtube no link acima, a aplicação performou bem, sem qualquer erro a ser destacado, logrando êxito em todos os testes.
 
 
 Verificando individualmente cada componente da aplicação, como: funções, métodos, tempo de resposta, possíveis erros e desempenho. Monstra que foi um sucesso, garantido uma ótima experiência para o usuário. O sistema teve um desenvolvimento muito acima do esperado, não apresentando falhas. 
