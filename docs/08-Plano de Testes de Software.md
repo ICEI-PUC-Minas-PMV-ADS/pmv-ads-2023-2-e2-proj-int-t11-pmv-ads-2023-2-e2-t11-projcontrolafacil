@@ -4,6 +4,13 @@
 
 O teste de software tem como objetivo verificar se a aplicação atende aos requisitos funcionais e não funcionais definidos. É essencial garantir que a aplicação funcione corretamente, seja estável e livre de erros.
 
+# Plano de Testes de Software
+
+Os requisitos para realização dos testes de software são:
+
+- Navegador de Internet
+- Microsoft Visual Studio para execução do código
+
 ## Tipos de Testes
 
 **Testes de Unidade**
