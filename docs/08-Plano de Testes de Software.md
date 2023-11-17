@@ -90,15 +90,6 @@ Os testes funcionais a serem realizados na aplicação estão descritos a seguir
 | Critérios de Êxito | `-` A aplicação se adequa ao tamanho de exibição requisitado; <br> `-` A aplicação não oculta informações importantes quando acessada a partir de dispositivos com telas menores. |
 <br>
 
-### Teste 02:
-| Caso de Teste | T-02: Teste de Navegabilidade |
-|---|---|
-| Requisitos Associados | `RNF-01`: A aplicação deve manter o padrão de desempenho — definido pela equipe — em qualquer sistema de acesso: Browser, Smartphone ou Tablet; <br> `RNF-03`:  O sistema deve ser acessível e de fácil usabilidade pelo usuário; <br> `RNF-04`: O sistema deve ser responsivo em qualquer sistema de acesso: Browser, Smartphone ou Tablet. |
-| Objetivo do Teste | Verificar a navegabilidade da aplicação e o devido redirecionamento dos links de navegação. |
-| Passos | `1.` Acessar links da página inicial sendo direcionado para o site página Investimentos; |
-| Critérios de Êxito | `-` Os links de navegação redireciona o usuário às páginas solicitadas. |
-<br>
-
 ### Teste 03:
 | Caso de Teste | **T-03: Teste de Cadastro de Receitas**  |
 |---|---|
@@ -119,9 +110,46 @@ Os testes funcionais a serem realizados na aplicação estão descritos a seguir
 | Critérios de Êxito | `-` A aplicação se adequa ao tamanho de exibição requisitado; <br> `-` A aplicação não oculta informações importantes quando acessada a partir de dispositivos com telas menores. |
 <br>
 
-
 ### Teste 02:
 | Caso de Teste | **T-02: Teste de Cadastro de Despesas**  |
+|---|---|
+| Requisitos Associados | `RF-01`: Permitir que o usuário registre suas despesas fixas (aluguel, streaming, seguro, internet, etc.). |
+| Objetivo do Teste | Verificar preenchimento dos campos obrigatórios, e verificar se a aplicação insere novas informações à seção “Extratos”. |
+| Passos | `1.` Acessar a tela inicial através de dispositivos com diferentes dimensões de tela; <br> `2.` Verificar se os dados cadastrados aparecem na seção "Transações". |
+| Critérios de Êxito | `-` Preenchimento incompleto do formulário exibe mensagem de erro; <br> `-` Preenchimento completo do formulário exibe informações na tabela. |
+<br>
+
+## Tela de Transações
+### Teste 01:
+| Caso de Teste | T-01: Teste de Responsividade |
+|---|---|
+| Requisitos Associados |  `RNF-01`: A aplicação deve manter o padrão de desempenho — definido pela equipe — em qualquer sistema de acesso: Browser, Smartphone ou Tablet; <br> `RNF-03`:  O sistema deve ser acessível e de fácil usabilidade pelo usuário; <br> `RNF-04`: O sistema deve ser responsivo em qualquer sistema de acesso: Browser, Smartphone ou Tablet. |
+| Objetivo do Teste | Verificar a acessibilidade da aplicação e seu comportamento em dispositivos de diferentes tipos e tamanhos. |
+| Passos | `1.` Acessar a tela inicial através de dispositivos com diferentes dimensões de tela; |
+| Critérios de Êxito | `-` A aplicação se adequa ao tamanho de exibição requisitado; <br> `-` A aplicação não oculta informações importantes quando acessada a partir de dispositivos com telas menores. |
+<br>
+
+### Teste 02:
+| Caso de Teste | **T-02: Teste de Cadastro de Transações**  |
+|---|---|
+| Requisitos Associados | `RF-01`: Permitir que o usuário registre suas despesas fixas (aluguel, streaming, seguro, internet, etc.). |
+| Objetivo do Teste | Verificar preenchimento dos campos obrigatórios, e verificar se a aplicação insere novas informações à seção “Extratos”. |
+| Passos | `1.` Acessar a tela inicial através de dispositivos com diferentes dimensões de tela; <br> `2.` Verificar se os dados cadastrados aparecem na seção "Transações". |
+| Critérios de Êxito | `-` Preenchimento incompleto do formulário exibe mensagem de erro; <br> `-` Preenchimento completo do formulário exibe informações na tabela. |
+<br>
+
+## Tela de Usuários (apenas administradores da aplicação)
+### Teste 01:
+| Caso de Teste | T-01: Teste de Responsividade |
+|---|---|
+| Requisitos Associados |  `RNF-01`: A aplicação deve manter o padrão de desempenho — definido pela equipe — em qualquer sistema de acesso: Browser, Smartphone ou Tablet; <br> `RNF-03`:  O sistema deve ser acessível e de fácil usabilidade pelo usuário; <br> `RNF-04`: O sistema deve ser responsivo em qualquer sistema de acesso: Browser, Smartphone ou Tablet. |
+| Objetivo do Teste | Verificar a acessibilidade da aplicação e seu comportamento em dispositivos de diferentes tipos e tamanhos. |
+| Passos | `1.` Acessar a tela inicial através de dispositivos com diferentes dimensões de tela; |
+| Critérios de Êxito | `-` A aplicação se adequa ao tamanho de exibição requisitado; <br> `-` A aplicação não oculta informações importantes quando acessada a partir de dispositivos com telas menores. |
+<br>
+
+### Teste 02:
+| Caso de Teste | **T-02: Teste de Gestão de Usuários**  |
 |---|---|
 | Requisitos Associados | `RF-01`: Permitir que o usuário registre suas despesas fixas (aluguel, streaming, seguro, internet, etc.). |
 | Objetivo do Teste | Verificar preenchimento dos campos obrigatórios, e verificar se a aplicação insere novas informações à seção “Extratos”. |
