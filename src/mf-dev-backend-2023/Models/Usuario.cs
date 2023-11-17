@@ -18,6 +18,8 @@ namespace mf_dev_backend_2023.Models
 
         [Required(ErrorMessage = "Obrigatório informar o perfil.")]
         public Perfil Perfil { get; set; }
+
+        public ICollection<Transacao> Transacoes { get; set; }
     }
 
     public enum Perfil

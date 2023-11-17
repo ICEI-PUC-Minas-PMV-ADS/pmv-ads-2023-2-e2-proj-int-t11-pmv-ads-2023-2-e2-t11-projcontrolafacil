@@ -22,7 +22,7 @@ namespace mf_dev_backend_2023.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("mf_dev_backend_2023.Models.Transacao", b =>
+            modelBuilder.Entity("mf_dev_backend_2023.Models.Consumo", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -37,23 +37,26 @@ namespace mf_dev_backend_2023.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Tipo")
+                    b.Property<int>("Km")
                         .HasColumnType("int");
 
-                    b.Property<int>("UsuarioId")
+                    b.Property<int>("Tipo")
                         .HasColumnType("int");
 
                     b.Property<decimal>("Valor")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int>("VeiculoId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("UsuarioId");
+                    b.HasIndex("VeiculoId");
 
-                    b.ToTable("Transacoes");
+                    b.ToTable("Consumos");
                 });
 
-            modelBuilder.Entity("mf_dev_backend_2023.Models.Usuario", b =>
+            modelBuilder.Entity("mf_dev_backend_2023.Models.Veiculo", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -61,36 +64,39 @@ namespace mf_dev_backend_2023.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<int>("AnoFabricacao")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AnoModelo")
+                        .HasColumnType("int");
+
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Perfil")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Senha")
+                    b.Property<string>("Placa")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuarios");
+                    b.ToTable("Veiculos");
                 });
 
-            modelBuilder.Entity("mf_dev_backend_2023.Models.Transacao", b =>
+            modelBuilder.Entity("mf_dev_backend_2023.Models.Consumo", b =>
                 {
-                    b.HasOne("mf_dev_backend_2023.Models.Usuario", "Usuario")
-                        .WithMany("Transacoes")
-                        .HasForeignKey("UsuarioId")
+                    b.HasOne("mf_dev_backend_2023.Models.Veiculo", "Veiculo")
+                        .WithMany("Consumos")
+                        .HasForeignKey("VeiculoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Usuario");
+                    b.Navigation("Veiculo");
                 });
 
-            modelBuilder.Entity("mf_dev_backend_2023.Models.Usuario", b =>
+            modelBuilder.Entity("mf_dev_backend_2023.Models.Veiculo", b =>
                 {
-                    b.Navigation("Transacoes");
+                    b.Navigation("Consumos");
                 });
 #pragma warning restore 612, 618
         }

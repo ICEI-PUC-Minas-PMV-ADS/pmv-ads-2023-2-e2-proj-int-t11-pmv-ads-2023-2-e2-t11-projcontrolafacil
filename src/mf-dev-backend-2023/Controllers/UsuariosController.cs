@@ -12,7 +12,7 @@ using System.Security.Claims;
 
 namespace mf_dev_backend_2023.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Administrador")]
     public class UsuariosController : Controller
     {
         private readonly AppDbContext _context;
@@ -30,10 +30,10 @@ namespace mf_dev_backend_2023.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        public async Task<IActionResult> Login([Bind("Id,Senha")] Usuario usuario)
+        public async Task<IActionResult> Login([Bind("Nome,Senha")] Usuario usuario)
         {
             var user = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Id == usuario.Id);
+                .FirstOrDefaultAsync(m => m.Nome == usuario.Nome);
 
             if (user == null)
             {
@@ -73,6 +73,7 @@ namespace mf_dev_backend_2023.Controllers
             return View();
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();

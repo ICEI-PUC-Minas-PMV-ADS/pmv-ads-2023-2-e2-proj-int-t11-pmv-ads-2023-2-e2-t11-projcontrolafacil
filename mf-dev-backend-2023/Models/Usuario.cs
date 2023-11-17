@@ -1,5 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace mf_dev_backend_2023.Models
 {
@@ -18,13 +18,11 @@ namespace mf_dev_backend_2023.Models
 
         [Required(ErrorMessage = "Obrigatório informar o perfil.")]
         public Perfil Perfil { get; set; }
-
-        public ICollection<Transacao> Transacoes { get; set; }
     }
 
     public enum Perfil
     {
-        Administrador,
-        Usuário
+        Admin,
+        User
     }
 }

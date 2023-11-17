@@ -3,10 +3,11 @@
 @{
     ViewData["Title"] = "Transações";
 }
-<h2><i class="fa fa-money-bill-transfer"></i> Transações</h2>
+
+<h1>Transações</h1>
 
 <p>
-    <a asp-action="Create" class="btn btn-success"><i class="fa fa-plus"></i> Adicionar transação</a>
+    <a asp-action="Create" class="btn btn-success">Adicionar transação</a>
 </p>
 <table class="table">
     <thead>
@@ -27,26 +28,27 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                <a asp-action="Details" asp-route-id="@item.Id" class="text-secondary">@item.Tipo</a>
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Valor)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Data)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descricao)
-            </td>
-            <td>
-                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a>
-                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id"><i class="fa fa-search"></i> </a>
-                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id"><i class="fa fa-trash"></i></a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="text-secondary">@item.Tipo</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Valor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Data)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                <td>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Visualizar</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

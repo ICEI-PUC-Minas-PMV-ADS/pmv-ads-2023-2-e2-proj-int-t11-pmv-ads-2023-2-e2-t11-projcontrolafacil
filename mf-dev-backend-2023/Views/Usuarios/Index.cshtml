@@ -4,10 +4,10 @@
     ViewData["Title"] = "Usuários";
 }
 
-<h2><i class="fa fa-user"></i> Usuários</h2>
+<h1>Usuários</h1>
 
 <p>
-    <a asp-action="Create" class="btn btn-success"><i class="fa fa-plus"></i> Adicionar usuário</a>
+    <a asp-action="Create" class="btn btn-success">Adicionar usuário</a>
 </p>
 <table class="table">
     <thead>
@@ -22,20 +22,21 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Perfil)
-            </td>
-            <td>
-                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a>
-                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id"><i class="fa fa-search"></i> </a>
-                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id"><i class="fa fa-trash"></i></a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Perfil)
+                </td>
+                <td>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Visualizar</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

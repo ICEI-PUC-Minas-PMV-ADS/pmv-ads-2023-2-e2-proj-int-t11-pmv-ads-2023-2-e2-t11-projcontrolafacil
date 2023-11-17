@@ -22,6 +22,12 @@ namespace mf_dev_backend_2023.Models
         [Required(ErrorMessage = "Obrigatório informar a descrição.")]
         [Display(Name = "Descrição")]
         public string Descricao { get; set; }
+
+        [Display(Name = "Usuário")]
+        public int UsuarioId { get; set; }
+
+        [ForeignKey("UsuarioId")]
+        public Usuario Usuario { get; set; }
     }
     public enum Tipo
     {

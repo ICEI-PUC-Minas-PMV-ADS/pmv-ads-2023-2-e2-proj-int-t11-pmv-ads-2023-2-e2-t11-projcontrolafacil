@@ -4,7 +4,7 @@
     ViewData["Title"] = @ViewBag.Titulo;
 }
 
-<h2><i class="fa-solid fa-money-bill"></i> @ViewBag.Titulo</h2>
+<h1>@ViewBag.Titulo</h1>
 <h3 class="text-secondary">Valor total: R$ @ViewBag.Total</h3>
 <br />
 <table class="table">
@@ -30,7 +30,7 @@
         {
             <tr>
                 <td>
-                    <a asp-action="Details" asp-route-id="@item.Id" class="text-secondary">@item.Tipo</a>
+                    @Html.DisplayFor(modelItem => item.Tipo)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Valor)
@@ -42,9 +42,9 @@
                     @Html.DisplayFor(modelItem => item.Descricao)
                 </td>
                 <td>
-                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a>
-                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id"><i class="fa fa-search"></i> </a>
-                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id"><i class="fa fa-trash"></i></a>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Visualizar</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
                 </td>
             </tr>
         }

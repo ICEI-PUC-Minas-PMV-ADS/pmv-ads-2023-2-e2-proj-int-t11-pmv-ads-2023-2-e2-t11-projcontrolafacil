@@ -40,10 +40,15 @@ namespace mf_dev_backend_2023.Migrations
                     b.Property<int>("Tipo")
                         .HasColumnType("int");
 
+                    b.Property<int>("UsuarioId")
+                        .HasColumnType("int");
+
                     b.Property<decimal>("Valor")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("UsuarioId");
 
                     b.ToTable("Transacoes");
                 });
@@ -70,6 +75,22 @@ namespace mf_dev_backend_2023.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("mf_dev_backend_2023.Models.Transacao", b =>
+                {
+                    b.HasOne("mf_dev_backend_2023.Models.Usuario", "Usuario")
+                        .WithMany("Transacoes")
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("mf_dev_backend_2023.Models.Usuario", b =>
+                {
+                    b.Navigation("Transacoes");
                 });
 #pragma warning restore 612, 618
         }

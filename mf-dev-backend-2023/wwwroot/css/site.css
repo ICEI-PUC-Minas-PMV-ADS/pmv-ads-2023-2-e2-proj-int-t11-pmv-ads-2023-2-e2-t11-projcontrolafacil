@@ -14,24 +14,5 @@ html {
 }
 
 body {
-    background-color: #2125291a;
-    margin-bottom: 60px;
-
-}
-
-li {
-    list-style-type: none;
-    display: inline;
-    margin-left: 1px;
-}
-
-.dropdown-item {
-    color: #9b9d9e;
-}
-
-footer {
-    color: #9b9d9e;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  margin-bottom: 60px;
 }
