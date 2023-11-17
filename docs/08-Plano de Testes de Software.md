@@ -132,7 +132,7 @@ Os testes funcionais a serem realizados na aplicação estão descritos a seguir
 | Critérios de Êxito | `-` Preenchimento incompleto do formulário exibe mensagem de erro; <br> `-` Preenchimento completo do formulário exibe informações na tabela. |
 <br>
 
-## Tela de Usuários (apenas administradores da aplicação)
+## Tela de Gestão de Usuários (apenas administradores da aplicação)
 ### Teste 01:
 | Caso de Teste | T-01: Teste de Responsividade |
 |---|---|
@@ -141,13 +141,3 @@ Os testes funcionais a serem realizados na aplicação estão descritos a seguir
 | Passos | `1.` Acessar a tela inicial através de dispositivos com diferentes dimensões de tela; |
 | Critérios de Êxito | `-` A aplicação se adequa ao tamanho de exibição requisitado; <br> `-` A aplicação não oculta informações importantes quando acessada a partir de dispositivos com telas menores. |
 <br>
-
-### Teste 02:
-| Caso de Teste | **T-02: Teste de Gestão de Usuários**  |
-|---|---|
-| Requisitos Associados | `RF-01`: Permitir que o usuário registre suas despesas fixas (aluguel, streaming, seguro, internet, etc.). |
-| Objetivo do Teste | Verificar preenchimento dos campos obrigatórios, e verificar se a aplicação insere novas informações à seção “Extratos”. |
-| Passos | `1.` Acessar a tela inicial através de dispositivos com diferentes dimensões de tela; <br> `2.` Verificar se os dados cadastrados aparecem na seção "Extratos". |
-| Critérios de Êxito | `-` Preenchimento incompleto do formulário exibe mensagem de erro; <br> `-` Preenchimento completo do formulário exibe informações na tabela. |
-<br>
-
