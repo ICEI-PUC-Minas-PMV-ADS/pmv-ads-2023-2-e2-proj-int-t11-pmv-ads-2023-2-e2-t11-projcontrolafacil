@@ -30,13 +30,16 @@ Execução do teste nas telas de transações, receitas e despesas. Conforme apr
 
 ![Transações](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/21ef3b94-0b87-4112-9c4e-d03723e69b61)
 
+![Transações - Despesas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/e5090dfd-099a-4fb1-b760-a5a710801d70)
+
+![Transações - Receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/331e2b13-5126-481a-9fa5-cc7ec0158039)
+
+
 ## Teste de gestão de usuários (função apenas para gestores da aplicação)
 
 https://youtu.be/I9-SXDAc_tU
 
 Conforme apresentado no vídeo do youtube no link acima, a aplicação performou bem, sem qualquer erro a ser destacado, logrando êxito em todos os testes.
-
-![Transações](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/21ef3b94-0b87-4112-9c4e-d03723e69b61)
 
 ![Usuários](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/f4ecd4a2-731e-4ebf-a63c-412f3994c2a1)
 
