@@ -24,7 +24,8 @@ Para avaliar a usabilidade da aplicação, utilizaremos métricas como:
 -	**Taxa de Sucesso:** A porcentagem de usuários que completam com sucesso uma tarefa específica.
 -	Login e Senha
 https://youtu.be/eE5Of4Kz8JE
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/docs/img/tela_de_login)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/docs/img/tela_de_login.png)
   
 -	Transações (100%)
 
