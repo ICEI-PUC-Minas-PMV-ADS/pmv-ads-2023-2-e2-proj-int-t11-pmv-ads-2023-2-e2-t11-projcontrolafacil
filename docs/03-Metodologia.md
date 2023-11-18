@@ -60,18 +60,23 @@ etiquetas:
 ## Backlog
 
 1. Implementar funcionalidades principais:
+- visualizar/realizar cadastro com login e senha.
 - visualizar/registrar despesas fixas.
 - visualizar/registrar despesas esporádicas.
 - visualizar/registrar receitas fixas.
 - visualizar/registrar receitas esporádicas.           
 2. Realizar Testes de Software para as funcionalidades implementadas.
 3. Realizar Testes de Usabilidade.
-4. Preencher a documentação correspondente.
+4. Elaborar Relatório de Teste de Software e Usabilidade.
+5. Preencher a documentação correspondente.
+
+  
 
 ## Planejamento das Sprints
 
 **Sprint 1:**
 
+- visualizar/realizar cadastro com login e senha..
 - visualizar/registrar despesas fixas.
 - visualizar/registrar despesas esporádicas.
 
@@ -84,6 +89,11 @@ etiquetas:
 
 - Testes de Software.
 -  Testes de Usabilidade.
+
+ **Sprint 4:** 
+
+-  Relatório de Teste de Software.
+-  Relatório de Teste de Usabilidade.
 
 ### Ferramentas
 
