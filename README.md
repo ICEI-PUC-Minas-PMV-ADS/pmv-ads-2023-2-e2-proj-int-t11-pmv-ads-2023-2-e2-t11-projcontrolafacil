@@ -22,7 +22,7 @@ tem como objetivo contribuir para a educação e saúde financeira de seus usuá
 
 ## Orientador
 
-* Dr. Neil Paiva Tizzo
+* Dra. Daniela Carvalho Monteiro Ferreira
 
 ## Instruções de utilização
 

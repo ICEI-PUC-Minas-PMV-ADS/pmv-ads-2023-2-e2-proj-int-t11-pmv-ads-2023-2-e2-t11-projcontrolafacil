@@ -1,26 +1,58 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
-
-Para cada caso de teste definido no Plano de Testes de Software, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!!!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos (obs.: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso).
-
-## Avaliação
-
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
->
 > - Plano de Testes de Software
-
-Objetivo
-O teste de software tem como objetivo verificar se a aplicação atende aos requisitos funcionais e não funcionais definidos. É essencial garantir que a aplicação funcione corretamente, seja estável e livre de erros.
 
 # Tipos de Testes
 
 * Verificar individualmente cada componente da aplicação, como funções e métodos, para garantir que funcionem conforme o esperado.
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/131082433/d391f1b0-085e-422e-a371-d8f5c4b8040e
+## Teste Tela de Login
+
+https://youtu.be/eE5Of4Kz8JE
+
+Execução do teste de login e senha, além do teste de responsividade. Conforme apresentado no link acima, o teste trouxe resultados satisfatórios, cumprindo com êxito a função de autenticação de usuário.
+
+![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/099d8cb5-bdec-4e5b-ab4c-c6cd7ffb24a3)
+
+## Teste de responsividade e navegação
+
+https://youtu.be/GhOngmP9Vrc
+
+Conforme apresentado no vídeo disponível no link acima, a aplicação performou bem em plataformas com diferentes tamanhos de tela, sem erros a serem mencionados.
+
+![Responsividade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/88061a3a-3b93-4c7c-bb07-77c505e38d23)
+
+## Teste de gestão de transações
+
+https://youtu.be/G25WqzDabMM
+
+Execução do teste nas telas de transações, receitas e despesas. Conforme apresentado no vídeo do youtube no link acima, a aplicação performou bem, sem qualquer erro a ser destacado, logrando êxito em todos os testes.
+
+![Transações](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/21ef3b94-0b87-4112-9c4e-d03723e69b61)
+
+![Transações - Despesas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/e5090dfd-099a-4fb1-b760-a5a710801d70)
+
+![Transações - Receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/331e2b13-5126-481a-9fa5-cc7ec0158039)
+
+
+## Teste de gestão de usuários (função apenas para gestores da aplicação)
+
+https://youtu.be/I9-SXDAc_tU
+
+Conforme apresentado no vídeo do youtube no link acima, a aplicação performou bem, sem qualquer erro a ser destacado, logrando êxito em todos os testes.
+
+![Usuários](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/f4ecd4a2-731e-4ebf-a63c-412f3994c2a1)
+
+## Teste Tela de Cadastro
+
+https://youtu.be/DYwyYML07RQ
+
+Conforme apresentado no link acima, o teste trouxe resultados satisfatórios, cumprindo com êxito a função de autenticação de usuário.
+
+![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t11-pmv-ads-2023-2-e2-t11-projcontrolafacil/assets/122227953/eec22ff7-82f9-41c1-ac89-fcd93f30a5c6)
+
+
+## Conclusões
 
 Verificando individualmente cada componente da aplicação, como: funções, métodos, tempo de resposta, possíveis erros e desempenho. Monstra que foi um sucesso, garantido uma ótima experiência para o usuário. O sistema teve um desenvolvimento muito acima do esperado, não apresentando falhas. 
 
