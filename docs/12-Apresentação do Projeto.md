@@ -12,3 +12,6 @@ Controla Fácil
 
 O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
 
+## PDF da apresentação e video
+[Uploading Controla facil.pdf.pdf…]()
+
